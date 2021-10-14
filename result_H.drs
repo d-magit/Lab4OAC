@@ -1,0 +1,80 @@
+#------------------------------------------------------------
+#- Deeds (Digital Electronics Education and Design Suite)
+#- Rom Contents Saved on (10/10/21, 10:35:57 PM)
+#-      by Deeds (Digital Circuit Simulator)(Deeds-DcS)
+#-      Ver. 2.40.330 (Jan 07, 2021)
+#- Copyright (c) 2002-2020 University of Genoa, Italy
+#-      Web Site:  https://www.digitalelectronicsdeeds.com
+#------------------------------------------------------------
+#R ROM4Kx16, id 00B4
+#- Deeds Rom Source Format (*.drs)
+
+#A 0000h
+#H
+
+0020
+ffe0
+00c5
+0e05
+0006
+0005
+0e80
+0ff0
+0007
+00f8
+0d80
+00f8
+0d00
+0020
+0010
+40c5
+00b6
+0bc0
+0020
+0005
+0006
+0ac0
+0005
+00d0
+0a00
+0020
+0030
+00d6
+00d6
+00b5
+0880
+0000
+0020
+0005
+0780
+0010
+0025
+00d6
+0680
+0025
+00d5
+05c0
+0010
+0020
+0005
+00a5
+0480
+0005
+00a5
+03c0
+0000
+0005
+0300
+0000
+0000
+1001
+00b6
+0fc1
+f1c5
+00a5
+0100
+cccc
+0cc5
+0000
+0eee
+0000
