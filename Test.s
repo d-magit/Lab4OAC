@@ -62,9 +62,16 @@ OK13:	auipc a1, 0
 	beq a1,a0, OK14
 	jal ra, Erro
 OK14: 	lui a0, 0xCCCCC
-	addi a0, a0, 0xCC
+	addi a1, zero, 0xCC
+	slli a1, a1, 4
+	addi a1, a1, 0xC
+	add a0, a0, a1
 FimS:	jal ra, FimS
 
-Erro: lui a0,0xEEEE
+Erro: lui a0,0xEEEEE
+	addi a1, zero, 0xEE
+	slli a1, a1, 4
+	addi a1, a1, 0xE
+	add a0, a0, a1
 Fim: jal ra, Fim
 	
